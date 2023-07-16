@@ -100,7 +100,7 @@ nav li a:hover{
         
 }
 
-tablet device
+/* tablet device */
 
 @media screen and(min-width:576px) and (max-width:992px) {
     header{
@@ -111,6 +111,44 @@ tablet device
     }
     
 }
+/* main section style/ */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.span-2{
+    color: #898787;
+}
+.span-3{
+    color: rgb(241, 5, 5);
+
+
+}
+
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding-left:100px;
+    padding-right: 50px;
+}
+.teams-pragrap{
+    font-size:.75rem;
+    font-weight:400;
+}
+.teams-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
 
     
 
