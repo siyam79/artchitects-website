@@ -24,7 +24,7 @@ nav{
 }
 span{
     font-family: Arial, Helvetica, sans-serif;
-    color:#e70c51;
+    color:#f00e59;
     
 }
 nav,ul{
@@ -47,7 +47,43 @@ nav li a:hover{
     transition: .4s;
 }
 
+/* baner section?? */
 
 
+.banner-content{
+    max-width:800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    margin-top: 40px;
+    font-size: 3rem;
+    font-weight:900;
+    color: #131313;
+    padding-bottom: 10px;
+
+}
+.banner-pragrap{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #131313;
+}
+.btn-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 130px;
+    height:35px;
+    color: rgb(249, 245, 244);
+    border: none;
+    border-radius:15px;
+    background-color:#131313 ;
+    font-size: 1rem;
+    font-weight: 700; 
+    cursor: pointer;
+
+}
+.banner img{
+    width: 100%;
+}
 
 
